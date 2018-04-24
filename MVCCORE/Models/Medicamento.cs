@@ -34,7 +34,7 @@ namespace MVCCORE.Models
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime Fecha_Ingreso { get; set; }
-
+        public int miquilo { get; set; }
         public int miquilo { get; set; }
         public int MyProperty { get; set; }
     }
