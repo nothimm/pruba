@@ -36,6 +36,6 @@ namespace MVCCORE.Models
         public DateTime Fecha_Ingreso { get; set; }
 
         public int miquilo { get; set; }
-
+        public int MyProperty { get; set; }
     }
 }
